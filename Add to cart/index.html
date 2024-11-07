@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="header">
+        <h2 class="headerName">
+            Tech-Shop
+        </h2>
+
+        <div class="icons">
+          <a style="color: aliceblue; margin-left: 30px; text-decoration: none;" href="../homepage/">Home Page</a>
+          <a style="color: aliceblue; margin-left: 40px; text-decoration: none;" href="../product details/">Product Details</a>
+          <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+          <a href="../Add to cart/"><i id="icon" class="fa-solid fa-cart-shopping"></i></a>
+          <a href="../signup form/"><i id="icon" class="fa-regular fa-user"></i></a>
+        </div>
+    </div>
+    <!-- add to cart -->
+    <!-- <div class="leftpage"> -->
+    <div class="main">
+        <div class="main">
+            <div class="leftside">
+                <div class="cart" style="margin-top: 30px;">
+                    <div class="cartImage">
+                        <img src="./assets/tp1.png" alt="img1">
+                    </div>
+                    <div class="cartdes">
+                        <p>JBL Live 660NC Wireless Over-Ear NC Headphones</p>
+                        <pre
+                            style="font-size: large;"><i class="fa-solid fa-indian-rupee-sign"></i>9,999  <s style="font-size: medium; color: rgb(249, 250, 251);"><i class="fa-solid fa-indian-rupee-sign"></i>14,999</s></pre>
+                        <button style="margin-left: 20px; border: 0.5ps solid rgb(77, 74, 74);">-</button>
+                        <button style="color: red; background-color: black;">1</button>
+                        <button>+</button>
+                    </div>
+                    <div class="delete">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <hr style="margin-left: 100px; margin-right: 20px;">
+                <div class="cart">
+                    <div class="cartImage">
+                        <img src="./assets/tp2.png" alt="img1">
+                    </div>
+                    <div class="cartdes">
+                        <p>JBL Live 660NC Wireless Over-Ear NC Headphones</p>
+                        <pre
+                            style="font-size: large;"><i class="fa-solid fa-indian-rupee-sign"></i>1,299  <s style="font-size: medium; color: rgb(249, 250, 251);"><i class="fa-solid fa-indian-rupee-sign"></i>3,990</s></pre>
+                        <button style="margin-left: 20px; border: 0.5ps solid rgb(77, 74, 74);">-</button>
+                        <button style="color: red; background-color: black;">1</button>
+                        <button>+</button>
+                    </div>
+                    <div class="delete">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <hr style="margin-left: 100px; margin-right: 20px;">
+                <div class="cart">
+                    <div class="cartImage">
+                        <img src="./assets/tp3.png" alt="img1">
+                    </div>
+                    <div class="cartdes">
+                        <p>JBL Live 660NC Wireless Over-Ear NC Headphones</p>
+                        <pre
+                            style="font-size: large;"><i class="fa-solid fa-indian-rupee-sign"></i>1,099  <s style="font-size: medium; color: rgb(249, 250, 251);"><i class="fa-solid fa-indian-rupee-sign"></i>2,990</s></pre>
+                        <button style="margin-left: 20px; border: 0.5ps solid rgb(77, 74, 74);">-</button>
+                        <button style="color: red; background-color: black;">1</button>
+                        <button>+</button>
+                    </div>
+                    <div class="delete">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="description">
+                <!--   -->
+                <h3>Order Summary (4 items)</h3><br><br>
+
+                <div class="discount">
+                    <div class="dis">
+                        <p>Original Price</p>
+                    </div>
+                    <div class="orgprice">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i>21,979</p>
+                    </div>
+                </div>
+                <!--      -->
+                <div class="discount">
+                    <div class="dis">
+                        <p>Discount</p>
+                    </div>
+                    <div class="disprice">-<i class="fa-solid fa-indian-rupee-sign"></i>14,378</pre>
+                    </div>
+                </div>
+                <div class="discount">
+                    <div class="dis">
+                        <p>Delivary</p>
+                    </div>
+                    <div class="free">Free</pre>
+                    </div>
+                </div><br>
+                <hr><br>
+                <div class="discount">
+                    <div class="total">
+                        <p>Total price</p>
+                    </div>
+                    <div class="tprice">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i>14,378</p>
+                    </div>
+                </div>
+                <br>
+                <button
+                    style="height: 30px;width: 100%; background-color: red; color: aliceblue; border-radius: 5px; border: 0px;">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer  -->
+
+    <div class="TSfooter">
+        <div class="techshop">
+            <h2>Tech-Shop</h2>
+            <p>Subscribe to our Email alerts to receive early discount offers, and new products info</p>
+            <label for="Email"></label>
+            <input type="text" name="Email Address" placeholder="Email Address*"><br><br>
+            <button>Subscribe</button>
+        </div>
+        <div class="help">
+            <h3>Help</h3>
+            <p>FAQs</p>
+            <p>Track Order</p>
+            <p>Cancel Order</p>
+            <p>return Order</p>
+            <p>WarrentyInfo</p>
+        </div>
+        <div class="Policies">
+            <h3>Policies</h3>
+            <p>Return Policy</p>
+            <p>Security</p>
+            <p>Sitemap</p>
+            <p>Privacy Policy</p>
+            <p>Terms & conditions</p>
+        </div>
+        <div class="Company">
+            <h3>Company</h3>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Service Centres</p>
+            <p>Careers</p>
+            <p>Affiliates</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <hr style="color: #acbac5; ">
+    <div class="footer">
+
+        <div>
+            <p>2024 | All Rights Reserved. Built by | SAIKUMAR GUDALA</p>
+        </div>
+
+        <div class="footerIcons">
+            <i style="padding-left: 45px;" class="fa-brands fa-facebook-f"></i>
+            <i style="padding-left: 45px;" class="fa-brands fa-twitter"></i>
+            <i style="padding-left: 45px;" class="fa-brands fa-instagram"></i>
+            <i style="padding-left: 45px;" class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

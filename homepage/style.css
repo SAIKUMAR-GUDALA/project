@@ -1,0 +1,247 @@
+body{
+    background-color:rgb(19, 19, 19);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.headerName{
+    color: aliceblue ;
+}
+.icons{
+    margin-top: 30px;
+}
+#icon{
+    gap: 20px;
+    margin-left: 50px;
+    font-size: large;
+    color: aliceblue;
+}
+.bannerDesc{
+    color: aliceblue;
+}
+.bannerImage img{
+    height: 550px;
+    width: 550px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px;
+}
+.fpImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 90px;
+    margin-left: 30px;
+
+}
+.fpImages .imgs:hover{
+       scale: 1.2;
+}
+.imgs img{
+    height: 200px;
+    width: 200px;
+    margin-left:-30px;
+
+}
+.buttons{
+    padding-left: 300px;
+    display: flex;
+    gap: 90px;
+}
+.buttons button{
+    height: 40px;
+    width: 85px;
+    color: aliceblue;
+    background-color: #0f0f10;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 40px;
+    
+}
+.buttons button:hover{
+    background-color: red;
+
+}
+.container{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    margin: 20px;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+.images{
+    width: 300px;
+    border: 1px solid aliceblue;
+    flex-grow: 1;
+    background-color:rgb(30, 30, 30) ;
+}
+.images img{
+    width: 300px;
+}
+.imgrating{
+    background-color: #0f0f10;
+    padding-top: 40px;
+}
+.imgsrating{
+    margin-top: 40px;
+    background-color: #0f0f10;
+    padding-top: 40px;
+}
+#star{
+    color: red;
+    margin-left: 10px;
+    /* padding-left: 30px; */
+}
+
+.images button{
+    height: 40px;
+    width: 280px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.images p{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.images pre{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.images .browse{
+    margin-top: 300px;
+    margin-left: 120px;
+}
+.images .product{
+    margin-left: 120px;
+}
+.ourAdv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.delivary{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    /* position: relative; */
+    /* bottom: 700px; */
+}
+.delivaryicon{
+    padding-top: 30px;
+    font-size: x-large;
+    color: red;
+}
+.delivarydesc{
+   padding-bottom: 50px;
+}
+.brandwarrenty{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    /* position: relative; */
+    /* bottom: 700px; */
+}
+.brandicon{
+    padding-top: 30px;
+    font-size: xx-large;
+    color: red;
+}
+.branddes{
+    padding-bottom: 50px;
+}
+.ExcitingDeals{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    /* position: relative; */
+    /* bottom: 700px; */
+}
+.edicon{
+    padding-top: 30px;
+    font-size: xx-large;
+    color: red;
+}
+.edDes{
+    padding-bottom: 50px;
+}
+.payment{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    padding-top: 30px;
+    font-size: xx-large;
+    color: red;
+}
+.securePayment{
+    padding-bottom: 50px;
+}
+.TSfooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 60px;
+}
+.techshop{
+    color: aliceblue;
+}
+.techshop input{
+    height: 30px;
+    width: 400px;
+    background-color: #0f0f10;
+    color: aliceblue
+}
+.techshop button{
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.help{
+    color: aliceblue;
+}
+.Policies{
+    color: aliceblue;
+}
+.Company{
+    color: aliceblue;
+}
+.footer{
+    color: aliceblue;
+    display: flex;
+    background-color: black;
+}
+.footerIcons{
+    margin: 30px;
+    margin-left: 700px;
+}
+.imgrating{
+    background-color: #0f0f10;
+    padding-top: 40px;
+}
+.imgsrating{
+    margin-top: 40px;
+    background-color: #0f0f10;
+    padding-top: 40px;
+}
+
+
+
+
+
+
